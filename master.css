@@ -13,13 +13,13 @@ body,html {
 }
 .card{
  border: none;
- width: 500px;
- height: 625px;
+ width: 30rem;
+ height: 42rem;
  background-color:#F0F8FF;
  border: 5px solid #81D8D0;
 }
 .entire-card{
- width: 500px;
+ width: 30rem;
   margin: auto;
  box-shadow:5px 4px 20px #000000;
 }
