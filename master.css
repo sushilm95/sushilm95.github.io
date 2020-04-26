@@ -81,17 +81,18 @@ h5,p{
 }
 
 .row{
-  color: red;
-  background-color: red;
-  border: 5px solid blue;
+  /* color: red; */
+  /* background-color: red;
+  border: 5px solid blue; */
   margin: 0 auto;
+  width: 80%
 
 }
 
 .container, .container-fluid{
-  color: orange;
+  /* color: orange;
   background-color: orange;
-  border: 5px solid green;
+  border: 5px solid green; */
   height:100vh;
 }
 
