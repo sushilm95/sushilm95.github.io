@@ -1,94 +1,114 @@
 body,html {
- background-color:#F0F8FF;
+  background-color:#F0F8FF;
 }
 /* COLUMN/CONTAINERS */
 /* .col-lg-6,.col-8,.col-sm-9,.col-4, .col{
-  border: 5px solid black;
+border: 5px solid black;
 } */
 /*CARD FEATURES  */
 .card-header{
- padding-top: 75px;
- background-color:#F0F8FF;
- border: none;
+  padding-top: 75px;
+  background-color:#F0F8FF;
+  border: none;
 }
 .card{
- border: none;
- width: 30rem;
- height: 42rem;
- background-color:#F0F8FF;
- border: 5px solid #81D8D0;
+  border: none;
+  width: 30rem;
+  height: 42rem;
+  background-color:#F0F8FF;
+  border: 5px solid #81D8D0;
 }
 .entire-card{
- width: 30rem;
+  width: 30rem;
   margin: auto;
- box-shadow:5px 4px 20px #000000;
+  box-shadow:5px 4px 20px #000000;
 }
 /*TEXT */
 h5,p{
- font-family: 'IBM Plex Sans', sans-serif;
- color: rgb(48,48,48);
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: rgb(48,48,48);
 }
 /*SALAD BOWL TITLE */
 .SaladBowlTitle{
- font-family: 'IBM Plex Sans', sans-serif;
- width: 400px;
- color: #81D8D0;
- font-size: 4rem;
- border: 5px solid #81D8D0;
- box-shadow: 5px 4px 20px #81D8D0;
- margin-bottom: 3rem;
- margin-left: auto;
- margin-right: auto;
- transition: all 1s;
+  font-family: 'IBM Plex Sans', sans-serif;
+  width: 400px;
+  color: #81D8D0;
+  font-size: 4rem;
+  border: 5px solid #81D8D0;
+  box-shadow: 5px 4px 20px #81D8D0;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 1s;
+
 }
 .SaladBowlTitle:hover {
- transform: scale(1.05);
- box-shadow: 10px 8px 150px #81D8D0;
+  transform: scale(1.05);
+  box-shadow: 10px 8px 150px #81D8D0;
 }
 /*ACTIVE NAV PILL FEATURES  */
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-   color: #F0FFFF;
-   background-color: #81D8D0;
-   font-family: 'IBM Plex Sans', sans-serif;
-   margin: 15px;
-   box-shadow: 5px 4px 20px #81D8D0;
-   transition: all 1s;
+  color: #F0FFFF;
+  background-color: #81D8D0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: 15px;
+  box-shadow: 5px 4px 20px #81D8D0;
+  transition: all 1s;
 }
 .nav-pills .nav-link.active:hover, .nav-pills .show > .nav-link:hover {
- transform: scale(1);
- box-shadow: 5px 4px 20px #81D8D0;
- background-color: #81D8D0;
- color: #F0F8FF;
+  transform: scale(1);
+  box-shadow: 5px 4px 20px #81D8D0;
+  background-color: #81D8D0;
+  color: #F0F8FF;
 }
 /*INACTIVE NAV PILL FEATURES */
 .nav-pills .nav-link, .nav-pills > .nav-link{
- color:grey;
- font-size: 3em;
- font-family: 'IBM Plex Sans', sans-serif;
- margin: 15px;
- transition: all 1s;
+  color:grey;
+  font-size: 3em;
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: 15px;
+  transition: all 1s;
 }
 .nav-pills .nav-link:hover, .nav-pills > .nav-link:hover{
- transform: scale(1.05);
- box-shadow: 10px 8px 150px #000000;
- background-color: #F0F8FF;
- color: #81D8D0;
+  transform: scale(1.05);
+  box-shadow: 10px 8px 150px #000000;
+  background-color: #F0F8FF;
+  color: #81D8D0;
 }
 /* FADE FOR CARD BODY */
 .fade {
- transition-duration: .5s;
+  transition-duration: .5s;
 }
 
-/* .row{
+.row{
   color: red;
   background-color: red;
   border: 5px solid blue;
+  margin: 0 auto;
 
-} */
+}
 
 .container, .container-fluid{
- /* color: orange;
- background-color: orange;
- border: 5px solid green; */
- height:100vh;
+  color: orange;
+  background-color: orange;
+  border: 5px solid green;
+  height:100vh;
 }
+
+@media only screen and (max-width : 480px) {
+  .container-flex {
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+@media only screen and (min-width : 481px) {
+  .container-flex {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* .v-center {
+position: relative;
+} */
